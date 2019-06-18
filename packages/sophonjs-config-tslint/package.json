@@ -1,0 +1,21 @@
+{
+  "name": "@sophonjs/config-tslint",
+  "version": "1.1.1",
+  "main": "tslint.json",
+  "license": "MIT",
+  "repository": "git@github.com:susy-js/sophonjs-config.git",
+  "author": "Krzysztof Kaczor <chris@kaczor.io>",
+  "files": [
+    "tslint.json",
+    "cli"
+  ],
+  "bin": {
+    "sophonjs-config-tslint": "./cli/tslint.sh",
+    "sophonjs-config-tslint-fix": "./cli/tslint-fix.sh",
+    "sophonjs-config-lint": "./cli/lint.sh",
+    "sophonjs-config-lint-fix": "./cli/lint-fix.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

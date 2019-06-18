@@ -1,0 +1,19 @@
+{
+  "name": "@sophonjs/config-prettier",
+  "version": "1.1.1",
+  "main": "prettier.json",
+  "license": "MIT",
+  "repository": "git@github.com:susy-js/sophonjs-config.git",
+  "author": "Krzysztof Kaczor <chris@kaczor.io>",
+  "files": [
+    "prettier.json",
+    "cli"
+  ],
+  "bin": {
+    "sophonjs-config-format": "./cli/format.sh",
+    "sophonjs-config-format-fix": "./cli/format-fix.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

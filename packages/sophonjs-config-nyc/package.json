@@ -1,0 +1,19 @@
+{
+  "name": "@sophonjs/config-nyc",
+  "version": "1.1.1",
+  "main": "nyc.json",
+  "license": "MIT",
+  "repository": "git@github.com:susy-js/sophonjs-config.git",
+  "author": "Krzysztof Kaczor <chris@kaczor.io>",
+  "files": [
+    "nyc.json",
+    "cli"
+  ],
+  "bin": {
+    "sophonjs-config-coverage": "./cli/coverage.sh",
+    "sophonjs-config-coveralls": "./cli/coveralls.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
